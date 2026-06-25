@@ -47,18 +47,18 @@ Instead of slowly charging the BESS with excess energy, the EMS enforces strict 
 git clone [https://github.com/YOUR_USERNAME/pieve-microgrid-optimization.git](https://github.com/YOUR_USERNAME/pieve-microgrid-optimization.git)
 cd pieve-microgrid-optimization
 
-2. Install dependencies:
+**2. Install dependencies:**
 It is recommended to use a virtual environment.
 
-Bash
+```bash
 pip install pandas numpy matplotlib pulp
+```
+**3. Execute the pipeline:**
 
-3. Execute the pipeline:
-
-Bash
+```bash
 python main.py
-
-4. View Results:
+```
+**4. View Results:**
    
 Upon execution, the terminal will display the MILP optimization results, TOTEX costs, and performance metrics. The simulation will automatically generate high-resolution operational graphs and save them directly to the /results directory:
 
