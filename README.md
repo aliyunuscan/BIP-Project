@@ -66,5 +66,6 @@ Upon execution, the terminal will display the MILP optimization results, TOTEX c
 - results/annual_overview.png
 - results/weekly_stress_test.png
 
-📊 Evaluation & Resilience
+## 📊 Evaluation & Resilience
+
 Under the 72-hour simulated Winter Freeze stress test (where river flow collapses to 5% and heating demand surges by 20%), the Proactive Shedding protocol guarantees a 0% Loss of Power Supply Probability (LPSP) for Tier 1 critical loads, validating the mathematical robustness of the minimized hardware capacities.
