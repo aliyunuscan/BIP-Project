@@ -43,10 +43,10 @@ Instead of slowly charging the BESS with excess energy, the EMS enforces strict 
 ## 🚀 How to Run the Simulation
 
 **1. Clone the repository:**
-
-git clone [https://github.com/YOUR_USERNAME/pieve-microgrid-optimization.git](https://github.com/YOUR_USERNAME/pieve-microgrid-optimization.git)
+```bash
+git clone https://github.com/aliyunuscan/Pieve-Microgrid-Optimization
 cd pieve-microgrid-optimization
-
+```
 **2. Install dependencies:**
 It is recommended to use a virtual environment.
 
